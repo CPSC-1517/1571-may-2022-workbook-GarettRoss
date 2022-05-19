@@ -9,10 +9,10 @@ Console.WriteLine("Hello, World!");
 
 //an instance class needs to be creates using the 'new' command and the class constructor
 
-Employment myEmp = new Employment("Level 5 Programer",SupervisoryLevel.Supervisor, 15);//default constructor
+//Employment myEmp = new Employment("Level 5 Programer", SupervisoryLevel.Supervisor, 15);//default constructor
 
-Console.WriteLine(myEmp.ToString());//use the instance name to reference items within your class
+//Console.WriteLine(myEmp.ToString());//use the instance name to reference items within your class
 
 
-myEmp.SetEmploymentResponsibilityLevel(SupervisoryLevel.DepartmentHead);
-Console.WriteLine(myEmp.ToString());
+//myEmp.SetEmploymentResponsibilityLevel(SupervisoryLevel.DepartmentHead);
+//Console.WriteLine(myEmp.ToString());
