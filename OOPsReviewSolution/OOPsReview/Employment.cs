@@ -110,6 +110,7 @@ namespace OOPsReview.Data
             {
                 if (!Utilities.IsZeroPositive(value))
                 {
+                    throw new AggregateException()
                     throw new ArgumentOutOfRangeException($"Years value {value} is invalid must be 0 or greater");
                 }
                 _Years = value; 
