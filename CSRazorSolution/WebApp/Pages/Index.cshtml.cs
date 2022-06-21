@@ -30,6 +30,7 @@ namespace WebApp.Pages
         public void OnGet()
         {
             //once in the request method, you are in control of what is being processed on the webpage for the current request
+            //the code written within this method is the work I WISH to be done
             Random rnd = new Random();
             int value = rnd.Next(0,100);//100 not included
             if (value % 2 ==0 )
